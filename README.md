@@ -18,7 +18,7 @@
 			- An **external power supply** that allows connection for 3.3V-5V and GND. Doesn't need a LiPo attached to it, but it must be able to be powered by *something* e.g. USB, battery, etc.
 				- [Example of a LiPo UPS/jumper for our purposes](https://imgur.com/a/IU3owOH)
 				- You can also look for "USB powered 3.3V-5V module"
-				- Doesn't matter what is is as long as: it gets power from somewhere, it's regulated at no more than your GPS module; for us that's 5V
+				- Doesn't matter what it is as long as: it gets power from somewhere, it's regulated at no more than your GPS module; for us that's 5V
 			- An **area you have access to that is free from electronics or signal emitting devices**. I simply used windowsills in a kitchen for testing.
 	- ## Implementing the fix, and getting our satellite fix
 		- Solder the headers to your GPS module. We only need GND, VCC, TX, and RX covered for GPS.
