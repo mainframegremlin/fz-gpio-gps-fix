@@ -21,7 +21,7 @@
 				- Doesn't matter what it is as long as: it gets power from somewhere, it's regulated at no more than your GPS module; for us that's 5V
 			- An **area you have access to that is free from electronics or signal emitting devices**. I simply used windowsills in a kitchen for testing.
 	- ## Implementing the fix, and getting our satellite fix
-		- Solder the headers to your GPS module. We only need GND, VCC, TX, and RX covered for GPS.
+		- [Solder the headers to your GPS module](https://imgur.com/a/erNpzdi). We only need GND, VCC, TX, and RX covered for GPS.
 		- [Solder the headers to your host/dev board](https://imgur.com/a/ni6Vvfs). I did all of the middle sections of the dev board rather than cutting an individual connector for each slot.
 		- Make sure your antenna is attached to your module. A small ceramic will do, your module probably came with one.
 		- Make sure your host/dev board is not attached to your FZ. We will want to connect this once we have our GPS connected to it.
@@ -44,3 +44,5 @@
 		- [Profit](https://imgur.com/a/Z3ywG9m)!
 	- ## Wrapping up
 		- While our solution takes some prior preparation, it is far more worth adjusting our approach to be more modular/hot swappable, especially if our intention is to wardrive within a small time window (get up and go). This will reliably eliminate the lack of satellite fix, and get us connected to 10-14 satellites quickly; at the very least hitting the minimum requirement of 4 satellites. This is a crucial method for a recon process, where tools should be as immediately available as possible.
+  		- Keep in mind, attaching by crimped cables will increase the clearance size, but is still pocketable. You may have to get creative with wiring management, printing a case, etc. However, this is a small price to pay for reliability. Even with the added clearance from the cables, this will still fit into a jacket or bag comfortably. I recommend wrapping your soldered joints in some electrical tape if you aren't using a case, because they will get hot.
+    		- It's also worth reiterating, unless you have a very specific use-case, a small ceramic antenna will do the trick just fine. The times given above were using the stock ATGM336H antenna.
